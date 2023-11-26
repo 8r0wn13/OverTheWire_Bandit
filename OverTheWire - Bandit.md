@@ -95,18 +95,43 @@ Password: `password found in level 11`
 ## Level 13:
 `ssh bandit12@bandit.labs.overthewire.org -p 2220`
 Password: `password found in level 12`
+`mkdir /tmp/blah123`
+`cp data.txt /tmp/blah123`
+`cd /tmp/blah123`
+`cat data.txt` shows that it is a hex dump
+`xxd -r data.txt data`
+`file data`
+`mv data data.gz`
+`gzip -d data.gz`
+`file data data`
+`mv data data2.bz`
+`bzip2 -d data2.bz`
+`file data2`
+`mv data2 data4.gz`
+`gzip -d data4.gz`
+`file data4`
+`mv data4 data4.tar`
+`tar -xf data4.tar`
+`file data5.bin`
+`mv data5.bin data5.tar`
+`tar -xf data5.tar`
+`file data6.bin`
+`mv data6.bin data6.bz`
+`bzip2 -d data6.bz`
+`file data6`
+`mv data6 data6.tar`
+`tar -xf data6.tar`
+`file data8.bin`
+`mv data8.bin data8.gz`
+`gzip -d data8.gz`
+`file data8`
+`cat data8`
 
+## Level 14:
+`ssh bandit13@bandit.labs.overthewire.org -p 2220`
+Password: `password found in level 13`
 
-
-JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
-
-
-
-
-
-
-
-
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 
 
 
