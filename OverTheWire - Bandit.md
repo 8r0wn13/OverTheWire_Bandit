@@ -128,6 +128,7 @@ Password: `password found in level 12`
 `cat data8`
 
 ## Level 14:
+`https://overthewire.org/wargames/bandit/bandit14.html`
 `ssh bandit13@bandit.labs.overthewire.org -p 2220`
 Password: `password found in level 13`
 
